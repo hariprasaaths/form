@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="panel-group" id="accordionOHC" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-primary">
+                <div class="panel-heading" id="headingOne">
+                    <center>
+                        <h5>(Prescribed Under Sub-rule(4) of Rule 61-K)</h5>
+                        <h4><b>Record of Eye Examination</b></h4>
+                    </center>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="empno">Employee No.:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="empno" placeholder="Enter Number" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="workername">Name of the Worker:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="workername" placeholder="Enter Name" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="sex">Gender:</label>
+                            <div class="col-sm-1"><input type="radio" id="sex" name="gender" value="male" /> Male</div>
+                            <div class="col-sm-1"><input type="radio" id="sex" name="gender" value="female" /> Female</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="age">Age(on last birthday):</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="age" placeholder="Enter Age"/>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="department">Department:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="department" placeholder="Enter Department" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="natureofjob">Nature of Job:</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="natureofjob" placeholder="Enter the Nature of Job" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="doe">Date of Employment:</label>
+                            <div class="col-sm-3">
+                                <input type="date" class="form-control" id="doe" placeholder="Enter Date" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="doexam">Date of Examination</label>
+                            <div class="col-sm-3">
+                                <input type="date" class="form-control" id="doexam" placeholder="Enter Date" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="morbid">Co-morbid conditions:</label>
+                            <div class="col-sm-1"><input type="checkbox" id="morbid" value="dm" /> DM</div>
+                            <div class="col-sm-1"><input type="checkbox" id="morbid" value="ht" /> HT</div>
+                            <div class="col-sm-2"><input type="checkbox" id="morbid" value="cholesterol"/> CHOLESTEROL</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Result:</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3"></label>
+                            <label class="col-sm-3"></label>
+                            <label class="col-sm-2 control-label">RIGHT EYE</label>
+                            <label class="col-sm-1"></label>
+                            <label class="col-sm-2 control-label">LEFT EYE</label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="one">Distant Vision</label>
+                            <label class="col-sm-3 control-label" id="one">Without Glasses </label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="one" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="one" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"></label>
+                            <label class="col-sm-3 control-label" for="two">With Glasses </label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="one" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="one" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="three">Near Vision</label>
+                            <label class="col-sm-3 control-label" id="three">Without Glasses </label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="three" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="three" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="four"></label>
+                            <label class="col-sm-3 control-label" id="four">With Glasses </label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="four" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="four" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="five">Colour Vision</label>
+                            <label class="col-sm-3 control-label" id="five"></label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="five" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="five" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="six">Stereo Vision</label>
+                            <label class="col-sm-3 control-label"></label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="six" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="six" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="seven">Field of Vision</label>
+                            <label class="col-sm-3 control-label"></label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="seven" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="seven" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="eight">Fundus</label>
+                            <label class="col-sm-3 control-label"></label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="eight" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="eight" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="nine">Mono or Binocular Vision</label>
+                            <label class="col-sm-3"></label>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="eight" />
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control" id="eight" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="remarks">Remarks:</label>
+                            <div class="col-sm-9">
+                                <textarea rows="3" cols="80" class="form-control" id="remarks" placeholder="Remarks"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="pull-right">
+                                <label class="col-sm-7 control-label"> Signature & Seal Of Opthalmologist</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

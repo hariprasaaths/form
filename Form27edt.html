@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="panel-group" id="accordionOHC" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-primary">
+                <div class="panel-heading" id="headingOne">
+                    <center>
+                        <h3 class="panel-title"><b>FORM No.27</b></h3>
+                        <p>[Prescribed under rule 95]</p>
+                        <h4><b>CERTIFICATE OF FITNESS</b></h4>
+                    </center>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="slno">1.Serial number:</label>
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control" id="slno" placeholder="Enter Serial No." />
+                            </div>
+                            <label class="col-sm-3 control-label" for="date">Date:</label>
+                            <div class="col-sm-3"><input type="date" class="form-control" id="date"/></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="personexamined">2.Name of the person examined:</label>
+                            <div class="col-sm-2">
+                                <input type="text" class="form-control" id="personexamined" placeholder="Enter Name" />
+                            </div>
+                            <label class="col-sm-3 control-label" for="fathersname">3.Father's name:</label>
+                            <div class="col-sm-3"><input type="text" class="form-control" id="fathersname" placeholder="Enter Name" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="sex">4.Sex :</label>
+                            <div class="col-sm-2"><input type="radio"  id="sex" name="gender" value="male" /> Male</div>
+                            <div class="col-sm-2"><input type="radio"  id="sex" name="gender" value="female" /> Female</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="address">5.Residential Address:</label>
+                            <div class="col-sm-9">
+                                <textarea rows="3" cols="30" class="form-control" id="address" placeholder="Enter Address"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="factoryname">6.Name of the factory in which the person is employed or to be employed: </label>
+                            <div class="col-sm-9">
+                                <textarea rows="2" cols="30" class="form-control" id="factoryname" placeholder="Enter Company Name"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="process">
+                                7.Process or department in which the person is employed or to be employed:
+                            </label>
+                            <div class="col-sm-9">
+                                <textarea rows="2" cols="30" class="form-control" id="process"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="marks">
+                                8.Descriptive marks
+                            </label>
+                            <div class="col-sm-9 control-label">
+                                <textarea rows="1" cols="30" class="form-control" id="marks"></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">
+                                9.Whether certificate granted:
+                            </label>
+                            <p><div class="form-group"><div class="col-sm-4">(i)I certify that I have personally examined</div><div class="col-sm-3"><input type="text" class="form-control" /></div><div class="col-sm-1">(name)</div></div><label class="col-sm-3"></label><div class="col-sm-1">s/o</div><div class="col-sm-3"><input type="text" class="form-control" /></div><div class="col-sm-5">(father's name) residing at</div><label class="col-sm-12"></label><label class="col-sm-3"></label><div class="col-sm-4"><textarea rows="1" cols="20" class="form-control"></textarea></div><div class="col-sm-5">(address) who is desirous of being employed in or employed in</div><label class="col-sm-12"></label><div class="col-sm-3"></div><div class="col-sm-9">(department and process)of(name of thefactory) and that as nearly as can be ascertained from my examination is</div><div class="col-sm-12"></div><label class="col-sm-3"></label><div class="col-sm-2"><select class="form-control"><option>Fit</option><option>Unfit</option></select></div><div class="col-sm-7">for employment at the above noted factory.He is fit to be employed and may be employed on some</div><div class="col-sm-12"></div><label class="col-sm-3"></label><div class="col-sm-5">other non-hazardous operaton such as</div></p>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">
+                                10.Whether declared unfit and certifi-cate refused:
+                            </label>
+                            <div class="col-sm-5"><p>He may be produced for further examination after a period of</p></div><div class="col-sm-3"><input type="text" class="form-control" /></div>
+                             </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">
+                                11.Reason for:
+                                (1) refusal of certificate <input type="text" class="form-control" />(or)
+                                (2) certificate being revoked 
+                            </label>
+                            <div class="col-sm-4">
+                                He is advised the following further examination
+                            </div>
+                            <div class="col-sm-3"> <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">
+                                12.Reference number of previous certificate refused:
+                            </label>
+                            <div class="col-sm-6 control-label">
+                                He is advised the following treatment.The serial number of the previous certificate is
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="form-control"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

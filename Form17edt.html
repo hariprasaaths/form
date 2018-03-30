@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <div class="panel-group" id="accordionOHC" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-primary">
+                <div class="panel-heading" id="headingOne">
+                    <center>
+                        <h3 class="panel-title"><b>Form No.17</b></h3>
+                        <h5>(Prescribed under Rule 14)</h5>
+                        <h4><b>Health Register</b></h4>
+                        <h5>(In respect of persons employed in occupations declared to be dangerous operation under section87)</h5>
+                    </center>
+                </div>
+                <div class="panel-body">
+                    <form class="form-horizontal">
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label">Name of the Certifying surgeon:</label>
+                            <label class="col-sm-1 control-label">(a)</label>
+                            <div class="col-sm-3">
+                                <select class="form-control" id="lbl1">
+                                    <option>Mr.</option>
+                                    <option>Mrs.</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="lbl1" placeholder="Enter Name" />
+                            </div>
+                        </div>
+                            <div class="form-group">
+                                <label class="col-sm-4"></label>
+                                <label class="col-sm-1 control-label" for="dt3">From:</label>
+                                <div class="col-sm-2" id="dt3">
+                                    <input type="date" class="form-control" id="dt3" />
+                                </div>
+                                <label class="col-sm-2 control-label" for="dt4">To:</label>
+                                <div class="col-sm-2">
+                                    <input type="date" class="form-control" id="dt3" />
+                                </div>
+                            </div>
+                        <div class="form-group">
+                            <label class="col-sm-3"></label>
+                            <label class="col-sm-1 control-label" for="lbl2">(b)</label>
+                            <div class="col-sm-3"><select class="form-control" id="lbl2"><option>Mr.</option><option>Mrs.</option></select></div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="lbl2" placeholder="Enter Name" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4"></label>
+                            <label class="col-sm-1 control-label" for="dt3">From:</label>
+                            <div class="col-sm-2" id="dt3">
+                                <input type="date" class="form-control" id="dt3" />
+                            </div>
+                            <label class="col-sm-2 control-label" for="dt4">To:</label>
+                            <div class="col-sm-2">
+                                <input type="date" class="form-control" id="dt3" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3"></label>
+                            <label class="col-sm-1 control-label" for="lbl3">(c)</label>
+                            <div class="col-sm-3"><select class="form-control" id="lbl3"><option>Mr.</option><option>Mrs.</option></select></div>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="lbl3" placeholder="Enter Name" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-4"></label>
+                            <label class="col-sm-1 control-label" for="dt5">From:</label>
+                            <div class="col-sm-2 "><input type="date" class="form-control" id="dt5" /></div>
+                            <label class="col-sm-2 control-label" for="dt6">To:</label>
+                            <div class="col-sm-2 "> <input type="date" class="form-control" id="dt6" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="slno">Serial Number :</label>
+                            <div class="col-sm-9 "><input type="text" class="form-control" id="slno" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="workno">Works Number :</label>
+                            <div class="col-sm-9 control-label"><input type="text" class="form-control" id="workno" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="workername">Name of worker :</label>
+                            <span class="help-block"></span>
+                            <div class="col-sm-9 control-label"><input type="text" class="form-control" id="workername" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="sex">Sex :</label>
+                            <div class="col-sm-1 control-label"><input type="radio" id="sex" name="gender" value="male" /> Male</div>
+                            <div class="col-sm-2 control-label"><input type="radio" id="sex" name="gender" value="female" /> Female</div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="age">Age (last) birthday :</label>
+                            <span class="help-block"></span>
+                            <div class="col-sm-9 control-label"><input type="text" class="form-control" id="age" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="doe">Date of employment on present work:</label>
+                            <span class="help-block"></span>
+                            <div class="col-sm-4 control-label"><input type="date" class="form-control" id="doe" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="dol">Date of leaving or transfer to other work :</label>
+                            <span class="help-block"></span>
+                            <div class="col-sm-4 control-label"><input type="date" class="form-control" id="dol" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="reason">Reason for leaving,transfer or discharge :</label>
+                            <span class="help-block"></span>
+                            <label class="col-sm-9"><textarea rows="1" cols="30" class="form-control" id="reason"></textarea></label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="nature">Nature of job or occupation :</label>
+                            <span class="help-block"></span>
+                            <label class="col-sm-9 control-label"><textarea rows="1" cols="30" class="form-control" id="nature"></textarea></label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="rawmaterial">Raw material or by-product handled:</label>
+                            <span class="help-block"></span>
+                            <label class="col-sm-9 control-label"><textarea rows="1" cols="30" class="form-control" id="rawmaterial"></textarea></label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="dom">Date of Medical Examination by Certifying Surgeon:</label>
+                            <span class="help-block"></span>
+                            <label class="col-sm-4 control-label"><input type="date" class="form-control" id="dom" /></label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="rom">Result of Medical Examination:</label>
+                            <span class="help-block"></span>
+                            <label class="col-sm-4 control-label"><select class="form-control" id="rom"><option>Fit</option><option>Unfit</option><option>Suspended</option></select></label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="suspend">If suspended from work,state period of suspension with detailed reasons:</label>
+                            <span class="help-block"></span>
+                            <label class="col-sm-1 control-label" id="susped">From :</label>
+                            <label class="col-sm-3 control-label">
+                                <input type="date" class="form-control" id="suspend" />
+                            </label>
+                            <label class="col-sm-1 control-label" id="suspend">To :</label>
+                            <label class="col-sm-3" ><input type="date" class="form-control" id="suspend" /></label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label"></label>
+                            <div class="col-sm-9 control-label"><textarea rows="1" cols="30" class="form-control" id="suspend"></textarea></div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="recertify">Recertified fit to resume duty on (with signature of Certifying Surgeon) :</label>
+                            <label class="col-sm-8 control-label"><input type="text" class="form-control" id="recertify" /></label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="certificate"> If certificate of unfitness or suspension issued to worker:</label>
+                            <label class="col-sm-4 control-label"><select class="form-control" id="certificate"><option>Yes</option><option>No</option></select></label>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-sm-3 control-label" for="signature">Signature with date of Certifying Surgeon :</label>
+                            <span class="help-block"></span>
+                            <label class="col-sm-3 control-label"><input type="text" class="form-control" id="signature" /></label>
+                            <label class="col-sm-3 control-label"><input type="date" class="form-control" id="signature" /></label>
+                            <label class="col-sm-3"></label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
